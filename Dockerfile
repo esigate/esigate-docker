@@ -1,4 +1,4 @@
-FROM openjdk:11-alpine
+FROM openjdk:12-alpine
 
 ENV TMPDIR /tmp/esigate
 RUN set -xe \
