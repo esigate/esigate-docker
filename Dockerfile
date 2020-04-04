@@ -1,5 +1,7 @@
 FROM openjdk:12-alpine
 
+MAINTAINER nicolas.richeton@gmail.com
+
 ENV TMPDIR /tmp/esigate
 RUN set -xe \
 	&& mkdir -p "$TMPDIR" 
